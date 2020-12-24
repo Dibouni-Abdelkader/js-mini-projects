@@ -1,0 +1,37 @@
+[
+    {
+    "question" : " what's the current us presedent",
+    "a": "donald trump",
+    "b": "barak opama",
+    "c": "kenny west",
+    "corect": "a"
+  },
+  {
+    "question": "what is the model of your phone",
+    "a": "nokia",
+    "b": "samsung",
+    "c": "iphone",
+    "corect": "b"
+  },
+  {
+    "question": "how many letter in cat ",
+    "a": "4",
+    "b": "5",
+    "c": "3",
+    "corect": "c"
+  },
+  {
+    "question": "how many days in month",
+    "a": "30",
+    "b": "29",
+    "c": "31",
+    "corect": "a"
+  },
+  {
+    "question": "what's  the color of the sky",
+    "a": "red",
+    "b": "green",
+    "c": "blue",
+    "corect": "c"
+  }
+]

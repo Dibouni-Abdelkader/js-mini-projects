@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rebeccapurple;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	min-height: 100vh;
+
+}
+
+.pw-container{
+	background-color: rgb(46,12,80);
+	width: 400px;
+
+	box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.pw-header{
+	padding: 1rem;
+	position: relative;
+
+
+}
+.pw{
+	background-color: rebeccapurple;
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	height: 50px;
+	width: 100%;
+	
+	padding: 1rem;
+}
+
+.pw-header button{
+	position: absolute;
+	color: rebeccapurple;
+	padding: .25rem .5rem;
+	border-radius: 4px;
+	border: none;
+	top: -5px;
+	right: 16px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+	transform: translateY(70%);
+	cursor: pointer;
+	z-index: 999;
+
+}
+.pw-header:hover  #copy{
+	opacity: 1;
+	transform: translateY(50%);
+}
+.pw-body{
+	padding: 0 1rem 1rem;
+
+	
+}
+
+.form-control{
+	display: flex;
+	justify-content: space-between;
+	margin: .75rem 0;
+
+}
+
+.generate{
+	background-color: #ecb602;
+  color: rebeccapurple;
+  border: none;
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: .8rem;
+  width: 100%;
+  margin-top: 20px;
+}

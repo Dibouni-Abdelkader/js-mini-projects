@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+canvas{
+	border: 1px solid #eee;
+
+}
+
+.toolbox{
+	width: 500px;
+	background-color: rebeccapurple;
+	padding: 1rem;
+
+
+}
+.toolbox > *{
+	background: #fff;
+	border: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	padding:0;
+	margin: 0;
+	height: 30px;
+	width: 30px;
+}
+
+.toolbox #clear{
+	padding: 0 10px;
+	width : 70px;
+}
